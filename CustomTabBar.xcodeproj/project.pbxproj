@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,8 @@
 		2B040C56259BAEDB006A9415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B040C55259BAEDB006A9415 /* ContentView.swift */; };
 		2B040C58259BAEDC006A9415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B040C57259BAEDC006A9415 /* Assets.xcassets */; };
 		2B040C5B259BAEDC006A9415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B040C5A259BAEDC006A9415 /* Preview Assets.xcassets */; };
+		2B040C64259C11F1006A9415 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B040C63259C11F1006A9415 /* ViewRouter.swift */; };
+		2B040C68259C17D3006A9415 /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2B040C67259C17D3006A9415 /* PureSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,7 @@
 		2B040C57259BAEDC006A9415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B040C5A259BAEDC006A9415 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B040C5C259BAEDC006A9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B040C63259C11F1006A9415 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B040C68259C17D3006A9415 /* PureSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +58,7 @@
 			children = (
 				2B040C53259BAEDB006A9415 /* CustomTabBarApp.swift */,
 				2B040C55259BAEDB006A9415 /* ContentView.swift */,
+				2B040C63259C11F1006A9415 /* ViewRouter.swift */,
 				2B040C57259BAEDC006A9415 /* Assets.xcassets */,
 				2B040C5C259BAEDC006A9415 /* Info.plist */,
 				2B040C59259BAEDC006A9415 /* Preview Content */,
@@ -85,6 +90,9 @@
 			dependencies = (
 			);
 			name = CustomTabBar;
+			packageProductDependencies = (
+				2B040C67259C17D3006A9415 /* PureSwiftUI */,
+			);
 			productName = CustomTabBar;
 			productReference = 2B040C50259BAEDB006A9415 /* CustomTabBar.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +120,9 @@
 				Base,
 			);
 			mainGroup = 2B040C47259BAEDB006A9415;
+			packageReferences = (
+				2B040C66259C17D3006A9415 /* XCRemoteSwiftPackageReference "pure-swift-ui" */,
+			);
 			productRefGroup = 2B040C51259BAEDB006A9415 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B040C64259C11F1006A9415 /* ViewRouter.swift in Sources */,
 				2B040C56259BAEDB006A9415 /* ContentView.swift in Sources */,
 				2B040C54259BAEDB006A9415 /* CustomTabBarApp.swift in Sources */,
 			);
@@ -328,6 +340,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B040C66259C17D3006A9415 /* XCRemoteSwiftPackageReference "pure-swift-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeSlicing/pure-swift-ui.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B040C67259C17D3006A9415 /* PureSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B040C66259C17D3006A9415 /* XCRemoteSwiftPackageReference "pure-swift-ui" */;
+			productName = PureSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2B040C48259BAEDB006A9415 /* Project object */;
 }
