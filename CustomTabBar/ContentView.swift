@@ -21,26 +21,19 @@ struct ContentView: View {
                 switch viewRouter.currentPage {
                 case .home:
                     VStack(spacing: 10){
-                        Text("Carter, Tsai").fontSize(40).yOffset(-60)
-                        Text("SwiftUI - Menu Animation").yOffset(-60)
                         Text("Home Page")
                     }
                 case .liked:
                     VStack(spacing: 10){
-                        Text("Carter, Tsai").fontSize(40).yOffset(-60)
-                        Text("SwiftUI - Menu Animation").yOffset(-60)
+
                         Text("Liked Page")
                     }
                 case .records:
                     VStack(spacing: 10){
-                        Text("Carter, Tsai").fontSize(40).yOffset(-60)
-                        Text("SwiftUI - Menu Animation").yOffset(-60)
                         Text("Records Page")
                     }
                 case .user:
                     VStack(spacing: 10){
-                        Text("Carter, Tsai").fontSize(40).yOffset(-60)
-                        Text("SwiftUI - Menu Animation").yOffset(-60)
                         Text("User Page")
                     }
                 }
