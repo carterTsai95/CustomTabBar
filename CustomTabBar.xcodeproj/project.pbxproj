@@ -14,6 +14,7 @@
 		2B040C64259C11F1006A9415 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B040C63259C11F1006A9415 /* ViewRouter.swift */; };
 		2B040C68259C17D3006A9415 /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2B040C67259C17D3006A9415 /* PureSwiftUI */; };
 		2B1695EE2652E49A0086D110 /* 01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B1695ED2652E49A0086D110 /* 01.gif */; };
+		2B16962C2655A30E0086D110 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2B16962B2655A30E0086D110 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2B040C5C259BAEDC006A9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B040C63259C11F1006A9415 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		2B1695ED2652E49A0086D110 /* 01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 01.gif; sourceTree = "<group>"; };
+		2B16962B2655A30E0086D110 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		2B040C47259BAEDB006A9415 = {
 			isa = PBXGroup;
 			children = (
+				2B16962B2655A30E0086D110 /* README.md */,
 				2B1695EC2652E48A0086D110 /* ScreenShot */,
 				2B040C52259BAEDB006A9415 /* CustomTabBar */,
 				2B040C51259BAEDB006A9415 /* Products */,
@@ -150,6 +153,7 @@
 			files = (
 				2B040C5B259BAEDC006A9415 /* Preview Assets.xcassets in Resources */,
 				2B040C58259BAEDC006A9415 /* Assets.xcassets in Resources */,
+				2B16962C2655A30E0086D110 /* README.md in Resources */,
 				2B1695EE2652E49A0086D110 /* 01.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
